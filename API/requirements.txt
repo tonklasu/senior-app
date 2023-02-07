@@ -1,0 +1,10 @@
+fastapi 
+uvicorn
+Pillow 
+opencv-python-headless 
+numpy
+inaSpeechSegmenter
+moviepy
+librosa
+pandas
+mediapipe

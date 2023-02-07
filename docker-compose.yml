@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+
+  ui:
+    container_name: ui
+    build: 'UI/'
+    ports:
+      - "3000:3000"
+      
+  api:
+    container_name: modelapi
+    build: './API'
+    restart: always
+    ports:
+      - 8000:8000
+  
